@@ -2,7 +2,7 @@ export default function AbouMe() {
     return (
       <div id="about-me">
         <h1>About Me</h1>
-        <img className="rounded my-3" src="/public/headshot.png"></img>
+        <img className="rounded my-3" src="headshot.png"></img>
           <p className="my-4">
             My trajectory as a developer has been a storied one. 
             It started with learning to program my calculator in TI-BASIC in high school (to do my homework for me), and now I'm in full-stack development. 
