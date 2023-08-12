@@ -7,6 +7,8 @@ import Resume from '../pages/Resume';
 import Contact from '../pages/Contact';
 import Footer from '../components/Footer'
 
+
+// Conditionally render components in main body section based on page state
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About Me');
 

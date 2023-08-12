@@ -1,5 +1,6 @@
 export default function Contact() {
 
+  // Toggle empty field message if respective field empty on blur
   const handleBlur = (e) => {
     let messageId = e.target.id.match(/[^-]+/g)[1] + '-required'
     let elem = document.getElementById(messageId)
@@ -10,13 +11,15 @@ export default function Contact() {
       elem.style.display = "none"
     }
   }
-
+  
   const handleSubmit =(e) => {
     e.preventDefault()
     let emailElem = document.getElementById('contact-email')
+    // Regex for matching valid emails
     let validEmail = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
     let message = document.getElementById("email-invalid")
 
+    // Toggle invalid email message if email invalid
     if (validEmail.test(emailElem.value)) {
       message.style.display = "none"
       emailElem.value = ""

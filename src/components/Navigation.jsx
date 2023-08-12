@@ -1,6 +1,7 @@
 function Navigation({ currentPage, handlePageChange }) {
     const pages = ['About Me', 'Contact', 'Portfolio', 'Resume']
 
+    // Map individual pages to tabs, where tab clicks change the page state
     return (
         <nav className="">
             <ul className="nav nav-pills">

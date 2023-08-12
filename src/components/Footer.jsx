@@ -1,5 +1,6 @@
 function Footer() {
 
+    // Access data href attribute to use to send to respective link
     const handleClick = (e) => {
         window.open(e.target.dataset.href)
 
