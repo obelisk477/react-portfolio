@@ -1,0 +1,38 @@
+[
+    {
+      "title":"PWA Text Editor",
+      "deployedLink": "https://jate-text-editor-7578-678911497df2.herokuapp.com/",
+      "gitHubLink": "https://github.com/obelisk477/text-editor",
+      "imagePath": "JATEProject.png"
+    },
+    {
+      "title":"CubingAI",
+      "deployedLink": "https://obelisk477.github.io/cubing-ai/",
+      "gitHubLink": "https://github.com/obelisk477/cubing-ai",
+      "imagePath": "CubingProject.png"
+    },
+    {
+      "title":"Bookipedia",
+      "deployedLink": "https://obelisk477.github.io/bookipedia/",
+      "gitHubLink": "https://github.com/obelisk477/bookipedia",
+      "imagePath": "BookipediaProject.png"
+    },
+    {
+      "title":"Weather Dashboard",
+      "deployedLink": "https://obelisk477.github.io/weather-dashboard/",
+      "gitHubLink": "https://github.com/obelisk477/weather-dashboard",
+      "imagePath": "WeatherProject.png"
+    },
+    {
+      "title":"Workday Scheduler",
+      "deployedLink": "https://obelisk477.github.io/work-day-scheduler/",
+      "gitHubLink": "https://github.com/obelisk477/work-day-scheduler",
+      "imagePath": "WorkDay Project.png"
+    },
+    {
+      "title":"Coding Quiz",
+      "deployedLink": "https://obelisk477.github.io/code-quiz/",
+      "gitHubLink": "https://github.com/obelisk477/code-quiz",
+      "imagePath": "CodingQuiz.png"
+    }
+  ]

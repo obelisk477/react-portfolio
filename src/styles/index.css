@@ -53,6 +53,67 @@ li.nav-pills:hover {
     cursor: pointer;
 }
 
+h6 {
+    margin: 50vh 0;
+}
+
 footer {
     height: 8vh
+}
+
+#contact-container {
+    margin: 0 15vw;
+}
+
+#projects-container > div {
+    position: relative;
+    display: inline-block;
+    text-shadow: 0px 0px 20px #070c14;
+    margin: 3vh 4vh;
+}
+#projects-container > div:before {
+    content:"";
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.28);
+    position:absolute;
+    top:0;
+    left:0;
+    transition: 0.3s
+}
+
+#projects-container > div:hover:before {
+    content:"";
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.50);
+    position:absolute;
+    top:0;
+    left:0;
+    transition: 0.3s
+} 
+
+#projects-container h2 {
+    margin-top: 8vh;
+    display: inline-block;
+}
+#projects-container h2:hover {
+    cursor: pointer;
+}
+
+.card-img-overlay h6:hover {
+    cursor: pointer;
+}
+
+#proficiencies > * {
+    margin: 20px 0
+}
+#proficiencies a {
+    text-decoration: none;
+}
+
+footer img {
+    width: 75px;
+    height: auto;
+    cursor: pointer;
 }

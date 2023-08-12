@@ -1,15 +1,26 @@
 export default function Resume() {
     return (
-      <div>
-        <h1>Resume Page</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        </p>
+      <div id="proficiencies">
+        <h1>Resume</h1>
+        <h4>Download my <a href="Batten Resume.docx" download>resume</a></h4>
+        <h5>Front End Proficiences</h5>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive design</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
+        <h5>Back End Proficiences</h5>
+          <ul>
+            <li>Node</li>
+            <li>Express</li>
+            <li>APIs</li>
+            <li>MySQL / Sequelize</li>
+            <li>MongoDB / Mongoose</li>
+            <li>GraphQL</li>
+          </ul>
       </div>
     );
   }
